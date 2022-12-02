@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecard.css">
+    <title>Cadastre-se!</title>
+    <script>
+
+    </script>
+</head>
+<body>
+    <header>
+        <div id="page-header">
+            <span id="itens">
+                <a style="text-decoration: none;" href="ricardo.html">
+                <p><img width="24" height="24" src="fotos/logobs.png"> Blue Store</p></a>
+            </span>
+        </div>
+    </header>
+    <main>
+        <h2 id="form-title">Cadastre-se e garanta seu cartão!</h2>
+        <section id="first-section">
+            <form action="#">
+                <fieldset class="group-of-elements">
+                    <legend class="important-data" id="personal-data">Dados Pessoais</legend>
+                    <div class="campos-proximos">
+                        <label class="description" for="name">Nome:</label>
+                        <input type="text" maxlength="40" id="campo-nome">
+                        <label  class="description" for="age">Idade:</label>
+                        <input type="number" maxlength="3" id="campo-idade">
+                    </div>
+
+                    <div class="espaco-entre-campos">
+                        <label class="description" for="cpf">CPF:</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="number" maxlength="11" id="campo-cpf">
+                        <span id="informacoes-sobre-genero">
+                            <label for="gênero" class="description">Gênero:</label>
+                            <input type="radio" name="sex" value="male" class="radio-genero"> 
+                            <span class="fontes-genero">Masculino</span>
+                            <input type="radio" name="sex" value="female" class="radio-genero"> 
+                            <span class="fontes-genero">Feminino</span>
+                        </span>
+                    </div>
+
+                    <div class="espaco-entre-campos">
+                        <label for="telephone" class="description">Celular:</label>
+                        <input type="number" class="borda-cor-de-campo">
+                        <span class="fontes-genero">
+                            <label for="email" class="description">E-mail:</label>
+                            <input type="email" class="borda-cor-de-campo" id="campo-email">
+                        </span>
+                    </div>
+                </fieldset>
+
+                <fieldset class="group-of-elements">
+                    <legend class="important-data" id="personal-adress">Endereço</legend> <br>
+                        <div class="campos-proximos">
+                            <label for="street" class="description">Rua:</label>
+                            <input type="text" class="borda-cor-de-campo" id="campo-rua"> 
+                            <label for="number-house" class="description">Nº</label>
+                            <input type="text" class="borda-cor-de-campo" id="campo-numero">
+                        </div>
+                        <div class="espacos-entre-campos">
+                            <div class="campos-proximos">
+                                <div class="espaco-entre-campos">
+                                    <label for="street" class="description">Cidade:</label>
+                                    <input type="text" class="borda-cor-de-campo" id="campo-cidade"> 
+                                    <label for="street" class="description">Estado:</label>
+                                    <input type="text" class="borda-cor-de-campo" id="campo-estado"> 
+                                </div>
+                            </div>
+                        </div>
+                </fieldset>    
+                <fieldset class="group-of-elements">
+                    <legend class="important-data" id="mode">Tipo do Cartão</legend>
+                        <div class="espacos-entre-campos">
+                            <input type="radio" value="ead" class="radio-genero"> 
+                            <span class="fontes-genero">Gold Blue</span> &nbsp;&nbsp;
+                            <input type="radio" value="Presencial" class="radio-genero"> 
+                            <span class="fontes-genero">Black Blue</span>&nbsp;&nbsp;
+                            <input type="radio" value="flex" class="radio-genero"> 
+                            <span class="fontes-genero">Blue</span>
+                        </div>
+                        <div class="campos-proximos">
+                            <div class="espacos-entre-campos">
+                                <a href="pagina-sucesso.html">Enviar</a>
+                            </div>
+                        </div>
+                        
+                </fieldset>
+            </form>
+            
+        </section>
+        
+        <section id="image-ilustration">
+            <img src="fotos/card1.png" alt="ilustração de pessoa preenchendo cadastro">
+        </section>
+    </main>
+</body>
+</html>

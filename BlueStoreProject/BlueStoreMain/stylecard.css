@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Condensed:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(159, 180, 243);
+}
+#page-header{
+    background-color: #001666;
+    text-decoration: none;
+    width: 100%;
+    height: 5rem;
+}
+#page-header p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+}
+#itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#form-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    color: #4DFFEA;
+}
+.important-data{   
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #ffffff;
+}
+#first-section{
+    display: flex;
+    float: left;
+    margin-left: 10%;
+}
+#personal-data{
+    padding-bottom: 5%;
+}
+ #personal-adress{
+    display: flex;
+    float: left;
+}
+#mode{
+    padding-bottom: 5%;
+    display: flex;
+    float: left;
+} 
+
+.group-of-elements{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding-bottom: 6%;
+    }
+.description{
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+    color: #FFFFFF;
+}
+#campo-nome{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:300px;
+    height: 2em;
+    padding-left: 5px;
+}
+#campo-idade{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:42px;
+    height: 2em;
+}
+#campo-cpf{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:30%;
+    height: 2em;
+}
+.espaco-entre-campos{
+    margin-top: 6px;
+}
+.fontes-genero{
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#informacoes-sobre-genero{
+    margin-left: 2%;
+}
+.borda-cor-de-campo{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:29%;
+    height: 2em;
+    padding-left: 2%;
+}
+#image-ilustration img{
+    width: 35%;
+    float: right;
+    margin-right: 4%;
+}
+#campo-email{
+    width: 30%;
+}
+#campo-rua{
+    width: 60%;
+}
+#campo-numero{
+    width: 10%;
+}
+#campos-proximos{
+    display: flex;
+    flex-direction: row;
+}
+.espacos-entre-campos a{
+    background-color: rgb(15, 194, 248);
+    border: none;
+    width: 21%;
+    height: 3rem;
+    float: right;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    font-family: "roboto";
+
+}
+
+#dados-enviados{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    color: #4DFFEA;
+}
+#image-confirmed{
+    width: 38%;
+    margin-left: 30%;
+}
+#image{
+    
+}
